@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Pokemon</title>
+        <!-- Fonte -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+        <!-- Estilos -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+        <!-- Progress Bar -->
+        <script src="js/progressbar.min.js"></script>
+        <!-- Parallax -->
+        <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+      </head>
+<body>
+    <body>
+        <header>
+            <div class="container" id="nav-container">
+                <!--add essa class-->
+
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="img/logo.png" alt="Panatanal Pesca"> Laboratório do Professor Carvalho
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span> class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+                        <a class="nav-item nav-link" id="about-menu" href="registro.html">Registro de Pokémon</a>
+                        <a class="nav-item nav-link" id="services-menu" href="login.php">Registro de Estoque</a>
+                    </div>
+                </div>
+             </nav>
+             </div>
+        </header>
+        <main>
+            <div class="container-fluid">
+        <!--Sobre a empressa-->
+        <div id="about-area">
+            <div class="container">
+             <div class="row">
+                <div class="col-12">
+                    <h3 class="main-title">Bem vindo ao Laboratório do Professor Carvalho</h3>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/Carvalho.gif">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="about-title"> No nosso sistema do laboratório você irá encontar:</h3>
+                    <ul id="about-list">
+                        <li><i class="fas fa-check"></i> Se registrar como um usuário </li>
+                        <li><i class="fas fa-check"></i> Registrar o estoque de itens para teinadores </li>
+                        <li><i class="fas fa-check"></i> Gerenciar os itens, como editar e deletar os itens do estoque </li>
+                        <li><i class="fas fa-check"></i> Salvar todo o estoque atual em um arquivo único</li>
+                        <li><i class="fas fa-check"></i> Realizar registros para o estudo dos Pokémon </li>
+                    </ul>
+                </div>
+                <!-- Time -->
+     <div id="team-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="main-title">Nossos Iniciais</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/charmander.gif" class="card-img-top" alt="Imagem de Perfil 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Charmander</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/bulbasaur.gif" class="card-img-top" alt="imagem de Perfil 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Bulbasaur</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/squirtle.gif" class="card-img-top" alt="imagem de Perfil 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Squirtle</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/eevee.gif" class="card-img-top" alt="imagem de Perfil 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Eevee</h5>
+                      </div>
+                 </div>
+            </div>
+       </div>
+  </div>
+</div>
+ <!-- Trabalhe conosco -->
+            </div>
+            </div>
+</main>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="https://github.com/CarlosEduardoVMartins" target="_blank">Carlos Eduardo Varela Martins</a> &copy; 2024</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!--Scripts do projeto-->
+   <script src="js/scripts.js"></script>
+</body> 
+</body>
+</html>
